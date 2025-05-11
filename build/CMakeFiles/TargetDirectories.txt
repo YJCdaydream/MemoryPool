@@ -1,0 +1,3 @@
+/home/yjc/c++_projects/memory_pool/build/CMakeFiles/rebuild_cache.dir
+/home/yjc/c++_projects/memory_pool/build/CMakeFiles/MemoryPoolProject.dir
+/home/yjc/c++_projects/memory_pool/build/CMakeFiles/edit_cache.dir

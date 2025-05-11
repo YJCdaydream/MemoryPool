@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/yjc/c++_projects/memory_pool/build",
+  "command": "/usr/bin/g++  -I/home/yjc/c++_projects/memory_pool/include -g -g -pthread -std=gnu++11 -o CMakeFiles/MemoryPoolProject.dir/src/memory_pool.cpp.o -c /home/yjc/c++_projects/memory_pool/src/memory_pool.cpp",
+  "file": "/home/yjc/c++_projects/memory_pool/src/memory_pool.cpp"
+},
+{
+  "directory": "/home/yjc/c++_projects/memory_pool/build",
+  "command": "/usr/bin/g++  -I/home/yjc/c++_projects/memory_pool/include -g -g -pthread -std=gnu++11 -o CMakeFiles/MemoryPoolProject.dir/test/test.cpp.o -c /home/yjc/c++_projects/memory_pool/test/test.cpp",
+  "file": "/home/yjc/c++_projects/memory_pool/test/test.cpp"
+}
+]
