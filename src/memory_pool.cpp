@@ -97,6 +97,19 @@ size_t MemoryPool::padPointer(char * p, size_t align){
     return (align - reinterpret_cast<size_t>(p)) % align;
 }
 
+// 实现无锁入队操作
+bool MemoryPool::pushFreeList(Slot* slot){
+    while(true)
+    {
+        break;
+    }
+}
+
+Slot* MemoryPool::popFreeList(){
+
+}
+
+
 /* ----------------------------HashBucket------------------------------*/
 void HashBucket::initMemoryPool(){
     for(int i = 0; i < MEMORY_POOL_NUM; i++)

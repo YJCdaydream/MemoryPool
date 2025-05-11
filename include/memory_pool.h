@@ -44,7 +44,9 @@ private:
     void allocateNewBlock();    // 不向外暴露的向系统请求空间
     size_t padPointer(char * p, size_t align);
 
-    
+    // 使用CAS操作进行无锁入队和出队
+    bool pushFreeList(Slot* slot);
+    Slot* popFreeList();
 };
 
 
